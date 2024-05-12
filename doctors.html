@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="hospital-logo,-health-care-logo-icon-design-template-772e7d006c08f501945d275791d56126.jpg" alt="Hospital Logo" class="logo">
+        <h3>doctor appointment management system</h3>
+        <div class="container" >
+           
+            <div style="display: flex;">
+              
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="website.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="doctors.html">doctors</a></li>
+                    <li><a href="appoentation.html">appointation</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+
+        </div>
+    </section>
+  <table border="1" style="width: 900px; height: 400px;">
+    <tbody>
+        <tr class="doctor">
+            <td>Doctors</td>
+            <td>ABILITY</td>
+            <td>experience</td>
+            <td>select</td>
+        </tr>
+        <tr>
+            <td><i>DR.james</i></td>
+            <td><p>surgery of eyes</p></td>
+            <td>5years</td>
+            <td><input type="submit" value="select" onclick="dr()"></td>
+        </tr>
+        <tr>
+            <td><i>DR.john</i></td>
+            <td><p>medical advice</p></td>
+            <td>2years</td>
+            <td><input type="submit" value="select" onclick="john()"></td>
+        </tr>
+        <tr>
+            <td><i>DR.HABIMANA Damour </i></td>
+            <td><p>Treatment of chronic diseases</p></td>
+            <td>25years</td>
+            <td><input type="submit" value="select" onclick="habimana()"></td>
+        </tr>
+        <tr>
+            <td><i>DR.  KAMARIZA Esther</i></td>
+            <td><p>Profesional surgerist</p></td>
+            <td>5years</td>
+            <td><input type="submit" value="select" onclick="esther()"></td>
+        </tr>
+    </tbody>
+  </table>
+    <footer>
+        <script>
+            function dr(){
+                alert("you selected dr james; now he can treat you");
+            }
+            function john(){
+                alert("you selected dr john; you can send the email or call him to get medecines advice");
+            }
+            function habimana(){
+                alert("you selected dr HABIMANA;  ");
+            }
+            function esther(){
+                alert("you selected dr esther;  ");
+            }
+        </script>
+        <div class="container">
+            <p>&copy; 2024 Doctor Appointment System</p>
+        </div>
+    </footer>
+    <style>
+        table{
+            text-align: center;
+            font-weight: 500;
+            margin-left: 169px;
+            margin-top: -153px;
+            border: 3px solid black;
+        }
+        input{
+            width: 90%;
+            height:40%;
+            background: transparent;
+            color: black;
+            cursor: pointer;
+            
+        }
+        .doctor{
+            background-color: rgb(62, 83, 83);
+            color: white;
+        }
+    </style>
+</body>
+</html>

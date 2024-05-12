@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 220px;
+            height: 350px;
+            padding: 14px;
+            box-shadow: 2px 2px 4px;
+            margin-left: 530px;
+            margin-top: 60px;
+            border-radius: 5px;
+            font-family: sans-serif;
+        }
+
+        .btn{
+            background-color: #007bff;
+            color: white;
+            font-family: sans-serif;
+            width: 100%;
+            padding: 6px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        input{
+            width: 95%;
+        }
+
+        ul{
+            display: flex;
+            margin-left: 35%;
+        }
+
+        a{
+            text-decoration: none;
+            font-family: sans-serif;
+            color: #0f0d0d;
+        }
+
+        li{
+            list-style: none;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <ul>
+            <li><a href="website.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="log.html">Signin</a></li>
+        </ul>
+      </div>
+    <form action="website.html" method="post">
+        <h2>Sign-up</h2>
+        <label>Full Name</label><br>
+        <input type="text"><br><br>
+
+        <label>E-mail</label><br>
+        <input type="text"><br><br>
+
+        <label>Password</label><br>
+        <input type="text"><br><br>
+
+        <label>Confirm Password</label><br>
+        <input type="text"><br><br>
+
+        <button type="submit" class="btn">Signup</button>
+
+        <p>Have account? <a href="log.html">Log in</a></p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+form input{
+    color: #0f0d0d;
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    overflow: auto;
+    position:relative;
+    display: inline-flex;
+    margin-left: -120px;
+}
+h3{
+    margin-left: 160px;
+    margin-right: 20px;
+    margin-top: -43px;
+}
+
+.contact{
+    background-color: plum;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+}
+.contact input[type="text"]{
+    color: black;
+    border:1px solid black;
+    border-radius: 2px;
+    background-color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.logo {
+    height: 130px;
+    width: 123px;
+    margin-left: 20px;
+}
+nav ul {
+    list-style: none;
+    margin-left: 114px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.login-form {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.login-form input{
+    width:15pc;
+    border: 1px solid black;
+    border-radius: 4px;
+    color:black;
+}
+placeholder{
+    color: tomato;
+}
+
+.login-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+#about{
+    background-color:whitesmoke;
+
+}
+.about{
+    text-align: center;
+    margin-top: 10px;
+    height: 500px;
+}
+.services{
+    text-align: center;
+}

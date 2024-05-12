@@ -1,0 +1,11 @@
+#class{
+    float: right;
+}
+.form{
+    width: 13pc;
+    border: 1px solid black;
+}
+.header{
+    align-items: center;
+    display: inline;
+}
